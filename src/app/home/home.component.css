@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.col-sm-12{
+    background-image: url('/assets/bg3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.btn{
+    margin-top: 50px;
+    display: block;
+    height: 375px;
+}
+
+.btn ul li{
+    list-style: none;
+    padding-bottom: 6px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #020202;
+    font-weight: bolder;
+    font-size: 45px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-variant:small-caps;
+    background-color: aliceblue;
+    opacity: .9;
+}
+
+ul li a:hover{
+    color: red; 
+}
+
+#mt{
+    padding-top: 30px;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    align-items: center;
+}

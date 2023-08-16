@@ -1,0 +1,50 @@
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .row {
+    margin-top: 5rem;
+  }
+  
+  .card {
+    width: 300px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .text-dark {
+    color: #212529;
+  }
+  
+  .text-muted {
+    color: #6c757d;
+  }
+  
+  .text-muted p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .text-muted hr {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-top: 1px solid #6c757d;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  

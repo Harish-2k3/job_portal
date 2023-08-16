@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.card{
+    background-color:aliceblue;
+    margin: 30px;
+    width: 600px;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    list-style: none;
+}
+.card #logo{
+    float: right;
+    height: 50px;
+    width: 50px;
+}
+.card a{
+    text-decoration: none;
+    padding-right: 20px;
+}
+.card span{
+    padding-right: 20px;
+}
+.card h6{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.card img{
+    height: 30px;
+    width: 30px;
+}
+#ls{
+    margin-top: 20px;
+}

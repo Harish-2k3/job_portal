@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.container-fluid{
+  width: 100%;
+}
+
+.logo{
+  margin: 20px;
+}
+
+.logo img{
+  height: 90px;
+  width: 150px;
+}
+
+.nav-list{
+  float: right;
+  margin: 60px;
+}
+
+ul li{
+  padding-inline: 20px;
+  list-style: none;
+}
+
+ul li a{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 19px;
+}
+
+ul li a:hover{
+  color: blue;
+  font-size: 19.5px;
+}

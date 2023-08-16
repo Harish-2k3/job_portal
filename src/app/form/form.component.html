@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <div class="container">
+    <h1>Registration Form</h1>
+    <form>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" [(ngModel)]="name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email"[(ngModel)]="email">
+      </div>
+      <div class="form-group">
+        <label for="birthdate">Date of Birth:</label>
+        <input type="date" id="birthdate" name="birthdate" [(ngModel)]="dob">
+      </div>
+      <div class="form-group">
+        <fieldset>
+          <label for="gender">Gender:</label>
+          <input type="radio" id="male" name="gender" [(ngModel)]="sex" value="male" >
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" [(ngModel)]="sex" value="female">
+          <label for="female">Female</label>
+        </fieldset>
+        
+      </div>
+      <div class="form-group">
+        <fieldset>
+          <label for="interests">Interests:</label>
+          <input type="radio" [(ngModel)]="intrest" id="pri" name="interests" value="pri">
+          <label for="pri">PrivateJob</label>
+          <input type="radio" [(ngModel)]="intrest" id="gov" name="interests" value="gov">
+          <label for="gov">GovJobs</label>
+          <input type="radio" [(ngModel)]="intrest" id="other" name="interests" value="other">
+          <label for="other">Other</label>
+        </fieldset>
+      </div>
+      <button type="submit" value="reg" (click)="addStudent()">Register</button>
+    </form>
+  </div>
+  <div class="info">
+    <p><a href="/storedData">Click me</a></p>
+  </div>
+</body>
+</html>

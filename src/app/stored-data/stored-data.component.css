@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#details{
+    text-align: center;
+    padding-left: 400px;
+    margin-bottom: 20px;
+}
+#details h5{
+    width: 200px;
+    text-align: center;
+    border-bottom: 2px solid red;
+    font-size: 30px;
+}
+#file input{
+    border: none;
+    background-color:rgb(192, 212, 230);
+}

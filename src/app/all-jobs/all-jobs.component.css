@@ -1,0 +1,35 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  th:first-child {
+    width: 20%;
+  }
+  
+  th:nth-child(2),
+  th:nth-child(3),
+  th:nth-child(4),
+  th:nth-child(5) {
+    width: 15%;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  th[colspan="5"] {
+    color: red;
+    font-size: 20px;
+  }
+  

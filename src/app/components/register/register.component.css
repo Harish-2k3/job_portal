@@ -1,0 +1,86 @@
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .row {
+    margin-top: 5rem;
+  }
+  
+  .card {
+    width: 300px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    margin-bottom: 1rem;
+  }
+  
+  .btn-info {
+    width: 100%;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-info:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+  }
+  
+  .text-danger {
+    color: red;
+  }
+  
+  .text-dark {
+    color: #212529;
+  }
+  
+  .text-muted {
+    color: #6c757d;
+  }
+  
+  .row-link {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .row-link a {
+    text-decoration: none;
+  }
+  
+  .text-dark:hover {
+    text-decoration: underline;
+  }
+  
+  .text-dark:focus {
+    text-decoration: none;
+    outline: none;
+  }
+  
+  .text-dark:focus:hover {
+    text-decoration: underline;
+  }
+  
+  .text-dark:active {
+    outline: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  

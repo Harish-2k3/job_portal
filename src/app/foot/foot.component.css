@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.all{
+    margin-left: 0;
+    margin: 30px;
+    width: 100vw;
+    height: 90px;
+}
+
+.info{
+    padding-left: 20px;
+}
+
+.add{
+    padding-left: 500px;
+}
+
+.social{
+    float: right;
+    padding-right: 100px;
+}
+
+.social img{
+    height: 28px;
+    width: 50px;
+}
+
+a:hover{
+    color: blue;
+}
