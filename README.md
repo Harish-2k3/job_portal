@@ -13,4 +13,6 @@
 ![Screenshot (111)](https://github.com/Harish-2k3/job_portal/assets/108169641/7c7539a5-ad94-4ab1-8c0e-0e560a01f7e5)
 ![Screenshot (112)](https://github.com/Harish-2k3/job_portal/assets/108169641/5231b3a7-076f-43e4-8913-cd5393bdfe3b)
 ![Screenshot (113)](https://github.com/Harish-2k3/job_portal/assets/108169641/ec049cb0-4ed7-468d-8288-e89424b742fc)
+
+<h1>Blog Page</h1>
 ![Screenshot (114)](https://github.com/Harish-2k3/job_portal/assets/108169641/df9fe622-4521-48bd-ba68-5b1577813cad)
